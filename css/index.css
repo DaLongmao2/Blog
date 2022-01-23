@@ -2367,6 +2367,9 @@ kbd {
   width: 0;
   height: 0;
 }
+.post-share {
+  margin: 0 0 1rem;
+}
 .reward {
   text-align: center;
 }
