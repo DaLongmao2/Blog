@@ -614,6 +614,22 @@ kbd {
   -ms-transform: rotate(0);
   transform: rotate(0);
 }
+body {
+  position: relative;
+}
+body::after {
+  content: '';
+  display: block;
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  position: fixed;
+  height: 100vh;
+  z-index: -2;
+  background: url("https://up.tt98.com/uploadfile/pcbz/2020-12-19/d3a9d0f6ec0c4d480f84ffa4b44e0bb8.jpg") no-repeat center/cover;
+}
 .container {
   white-space: normal;
   word-wrap: break-word;
